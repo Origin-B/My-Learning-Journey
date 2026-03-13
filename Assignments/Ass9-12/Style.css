@@ -1,0 +1,33 @@
+div { display: inline-block;
+      outline: black solid;
+      outline-width: 5px;
+      width: auto;
+      height: 40%;
+      margin: 20px 150px;
+      padding: 40px;
+      background-color: rgba(130, 128, 128, 0.847); }
+
+.Shape1 { border: solid 5px red; }
+
+.Shape2  { border-style: solid;
+           border-color: blue green blue green;
+          border-width: 5px;}
+
+.Shape3  { border-style: dotted ;
+           border-color: red green blue yellow;
+           border-width: 5px;}
+
+/* تم الانتهاء من التكليف 9 */
+
+.element-element-1,
+.element-element-2,
+.element-element-3 { width: 400px;
+                     background-color: white;
+                     outline: none;}
+
+.element-element-1 { border-left: solid 5px red; }
+
+.element-element-2 { visibility: hidden; }
+
+.element-element-3 { border-left: solid 5px;
+                     border-color: rgb(62, 164, 130);}

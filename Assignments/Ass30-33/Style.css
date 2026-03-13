@@ -1,0 +1,166 @@
+.Ass-1 {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #eee;
+
+}
+
+.green,.red, 
+.blue,.black {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.green {
+  top: 40px;
+  left: 40px;
+  z-index: 3;
+  background-color: green;
+}
+
+.red {
+  top: 50px;
+  left: 50px;
+  z-index: 4;
+  background-color: red;
+}
+
+.blue {
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  background-color: blue;
+}
+
+.black {
+  width: 20px;
+  height: 20px;
+  top: 100px;
+  left: 20px;
+  z-index: 2;
+  background-color: black;
+}
+
+/* Assiment-2 */
+
+ body .Ass-2 {
+  position: relative;
+  width: 400px;
+  margin: 50px auto;
+  padding: 10px;
+  border: solid 2px;
+  border-color: red blue red blue;
+  background-color: #eee;
+}
+
+.top-left,.top-right,
+.bottom-left,.bottom-right {
+  position: absolute;
+  padding: 1px 7px;
+  color: white;
+  background-color: blue;
+}
+
+.top-left {
+  top: -12%;
+  left: -3%;
+  border-right: solid 3px red;
+}
+
+.top-right {
+  top: -12%;
+  right: -3%;
+  border-left: solid 3px red;
+}
+
+.bottom-left {
+  bottom: -12%;
+  left: -3%;
+  border-right: solid 3px red;
+}
+
+.bottom-right {
+  bottom: -12%;
+  right: -3%;
+  border-left: solid 3px red;
+}
+
+/* Assiment-3 */
+
+.Ass-3 {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #eeeeee00;
+}
+
+.Ass-3 .main-list {
+  list-style: none;
+  text-align: left;
+  background-color: white;
+}
+
+.css-list,
+.html-list,
+.js-list {
+  margin: 10px;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.css-list li,
+.html-list li,
+.js-list li {
+  margin: 6px 9px 6px -20px;
+  padding: 5px;
+  background-color: white;
+}
+
+.js-list li {
+  list-style-position: inside;
+}
+
+/* Ass-4 */
+
+.Ass-4 table {
+    width: 700px;
+    margin: 5% auto;
+    padding: 5px;
+    border-bottom: green 2px solid;
+    border-collapse: collapse;
+    text-align:center;
+    text-transform: capitalize;
+    background-color: #eee;
+}
+
+.Ass-4 thead td {
+  color: white;
+  background-color: black;
+}
+
+.Ass-4 td {
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+.Ass-4 img {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.view {
+  padding: 0 10px;
+  margin: 2px;
+  color: white;
+  background-color: rgb(0, 208, 255);
+}
+
+.delete {
+  padding: 0 10px;
+  margin: 0px 2px;
+  color: white;
+  background-color: rgb(255, 0, 0);
+}

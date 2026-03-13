@@ -1,0 +1,39 @@
+ .Ass-1 { padding: 60px;
+          font-family: sans-serif;
+          font-weight: 900;
+          text-align: center;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+          text-shadow: 1px 0px 0px brown,2px 0px 0px blue,3px 0px 0px violet ;
+          color: #000; }
+
+
+.Ass-2-shape-1 { text-align: center;
+                 text-transform: uppercase; }
+
+.Ass-2-shape-2 { text-align: center;
+                 text-transform: capitalize; }
+
+.Ass-2-shape-3 { text-align: center;
+                 text-transform: lowercase; }
+ 
+.Ass-3-shape-1,
+.Ass-3-shape-2,
+.Ass-3-shape-3 { width: 400px;
+                 padding: 20px;
+                 margin: 20px auto;
+                 background-color: rgba(104, 129, 151, 0.575);}
+
+.Ass-3-shape-3 { white-space: nowrap;
+                 overflow: hidden;
+                 text-overflow: ellipsis; }
+
+.Ass-4 { width: 200px;
+         height: 200px;
+         padding: 20px;
+         margin: 1000px 45%;
+         border-bottom: #0000007b solid 5px;
+         text-decoration: none; 
+         background-color: rgb(68, 225, 225);
+         color: white;
+         text-transform: capitalize;}

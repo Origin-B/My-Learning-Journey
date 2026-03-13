@@ -1,0 +1,147 @@
+
+/*  Ass-1  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  text-align: center;
+}
+
+.Ass-1 {
+  width: 350px;
+  height: fit-content;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #a47575a5;
+}
+
+.One,
+.empty,
+.three {
+  width: 300px;
+  height: 60px;
+  margin: 10px auto;
+  background-color: #eee;
+  text-align: center;
+  line-height: 60px;
+  color: black;
+}
+ 
+.empty:empty {
+  background-color: red;
+}
+
+/* Ass-2 */
+
+.Ass-2{
+  width: 18em;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.Ass-2::first-letter{
+  width: 1em;
+  padding: 10px;
+  margin: -.5em -2em;
+  float: left;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+}
+
+/* ASS-3 */
+
+.Ass-3 {
+  width: 31em;
+  height: fit-content;
+  margin:  auto;
+  padding: 20px;
+  border: #000 solid 2px;
+  line-height: normal;
+  background-color: black;
+}
+
+.Ass-3 p {
+  width: 20em;
+  height: 12px;
+  margin: 10px auto;
+  position: relative;
+  padding: 10px;
+  border-left: red 5px solid;
+  text-align: center;
+  line-height: 12px;
+  background-color: #eee;
+}
+ .Ass-3 p::before {
+  content: attr(data-person);
+  width: 4em;
+  height: 20px;
+  padding: 0px 1px;
+  position: absolute;
+  left: -5em;
+  top: 6px;
+  text-align: center;
+  line-height: 1em;
+  background-color: #eee;
+} 
+
+.Ass-3 p::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    right: 29px;
+    top: -10px;
+    border: solid 10px;
+    border-color: transparent red transparent transparent;
+    background-color: transparent;
+}
+
+/* Ass-4 */
+
+.Ass-4 {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #000;
+ 
+  
+}
+
+.Ass-4 p {
+  width: 17em;
+  height: 12px;
+  margin: 10px auto;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  line-height: 12px;
+  font-size: 16px;
+  background-color: #eee;
+  counter-increment: my-counter; 
+}
+
+.Ass-4 p::before {
+  content: counter(my-counter);
+  padding: 8px;
+  color: white;
+  background-color: red;
+  position: relative;
+  right: 1em;
+}
+
+.Ass-4 p::after {
+  content: "";
+  display: block;
+  width: 4px; 
+  height: 2em;
+  position: relative;
+  left: 17.6em;
+  top: -1.34em;
+  background-color: red;
+}

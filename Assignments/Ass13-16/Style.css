@@ -1,0 +1,17 @@
+/* Ass1 */
+
+.child span { color: red; }
+
+.parent span { color: blue; }
+
+p, .title { color: green; }
+
+/* Ass2 */
+
+.Ass-2,.Width { margin: 20px;
+                width: fit-content;
+                background-color: red; }
+
+.Width { width: 400px;
+         height: 60px;
+         overflow: hidden; }
