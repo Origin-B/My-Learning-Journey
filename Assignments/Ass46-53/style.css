@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Ass-1 */
+
+.Ass-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 50%;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid black;
+  background-color: #eee;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ass-1 div {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: orangered;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: white;
+  box-shadow: 5px 0px 0px orangered, -5px 0px 0px 1px aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ass-2 */
+
+.Ass-2 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #eee;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.Ass-2 div {
+  display: flex;
+  flex-flow: row wrap;
+  width: calc(90%/3);
+  height:fit-content;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(255, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* Ass-3 */
+
+.Ass-3 {
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid black;
+  background-color: #eee;
+  justify-content: space-around;
+  align-content: space-between;  
+}
+
+.Ass-3 div {
+  display: flex;
+  flex-flow: row wrap;
+  width: calc(90%/3);
+  height: fit-content;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgba(0, 26, 255, 0.479);
+  justify-content: center;
+  align-items: center;
+}
+
+.Ass-3 .one {
+  order: 1;
+}
+
+.Ass-3 .two {
+ order: 2;
+}
+
+.Ass-3 .three {
+ order: 5;
+ align-self: flex-end;
+}
+.Ass-3 .four {
+ order: 4;
+}
+
+.Ass-3 .five {
+ order: 3;
+}
+
+.Ass-3 .six {
+ order: 6;
+}
+
+.Ass-3 .two,
+.Ass-3 .four,
+.Ass-3 .five,
+.Ass-3 .six {
+ height: 50%;
+}
+
+/* Ass-4 */
+
+.Ass-4 {
+  display: flex;
+  flex-flow: column wrap;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #eee;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Ass-4 div {
+  display: flex;
+  flex-flow: row wrap;
+  height: fit-content;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgba(0, 26, 255, 0.479);
+  justify-content: center;
+  align-items: center;
+}
+.Ass-4 .Ass-4-one,
+.Ass-4 .Ass-4-three {
+  height: 30%;
+  width: fit-content;
+}
+
+.Ass-4 .Ass-4-two {
+  display: flex;
+  width: 50%;
+  height: 20%;
+  align-self: self-start;
+
+}
+
+/* Ass-5 */
+
+.Ass-5 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #eee;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.Ass-5 div {
+  display: flex;
+  flex-flow: row wrap;
+  width: 16%; 
+  height: 50%;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  align-content: center;
+}
+
+.Ass-5-one {
+  order: 2;
+  background-color: blueviolet;
+}
+.Ass-5-two {
+  order: 3;
+  align-self: flex-end;
+  background-color: aqua;
+}
+.Ass-5-three {
+  order: 4;
+  background-color: brown;
+}
+.Ass-5-four {
+  order: 1;
+  align-self: flex-end;
+  background-color: chocolate;
+
+}
+
+/* Ass-6 */
+
+.Ass-6 {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: black solid 2px;
+  background-color: #711f1f;
+  display: flex;
+  gap: 5px;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.links li {
+  display: inline-block;
+  list-style: none;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+.logo,.links {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.links {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.main-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.content {
+  width: 60%;
+  height: 15em;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.sidebar {
+  width: 40%;
+  height: 15em;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.footer {
+  height: 10%;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+

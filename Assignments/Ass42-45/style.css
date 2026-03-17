@@ -1,0 +1,78 @@
+.Ass-1 {
+  width: 20em;
+  height: 100px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #2ca0688a;
+  transition: margin-top 1s ease-in-out .2s, margin-top 1s ease-in-out .5s;
+}
+
+.Ass-1 .Ass-1-child {
+  padding: 15px;
+  background-color: #0b819c;
+  transition: all 500ms ease 500ms; 
+}
+
+.Ass-1:hover {
+  margin-top: 20px;
+}
+
+.Ass-1:hover .Ass-1-child {
+  margin-top: 20px;
+}
+
+/* Ass-2 */
+
+.Ass-2 {
+  visibility: hidden;
+  width: 400px;
+  margin: 20px auto;
+  position: relative;
+  border: none !important;
+  text-align: center;
+  color: black !important;
+  background-color: #eee !important;
+}
+
+.Ass-2::after {
+  content: "Elzero";
+  visibility: visible;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  text-align: center;
+  color: black;
+  background-color: #eee;
+}
+ 
+/* Ass-3 */
+
+ :root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+  --mainMargin: 10px;
+  --mainBorder: #009688 3px solid;
+  --mainBackground-color: white;
+} 
+
+.Ass-3 {
+  width: 250px;
+  margin: 100px auto;
+  padding: var(--mainPadding,10px);
+  text-align: left;
+  background-color: #eee;
+}
+
+.Ass-3 div {
+  margin: var(--mainMargin,10px);
+  padding: var(--mainPadding,10px);
+  border: var(--mainBorder,black 3px solid);
+  color: var(--mainColor,red);
+  background-color: var(--mainBackground-color,white);
+}

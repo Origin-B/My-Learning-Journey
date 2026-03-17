@@ -1,0 +1,139 @@
+
+/* Ass-1 */
+
+.Ass-1,
+.Ass-2,
+.Ass-3{
+  width: 51%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(46 41 74 / 52%);
+  font-family: sans-serif;
+}
+
+.Ass-1 div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  position: relative;
+  border-radius: 75px;
+  outline: 2px black solid;
+  background-color: #eee;
+  box-shadow: 2px 6px 0px 1px #2196f3, -1px -4px 1px 2px #e91e63;
+  counter-increment: my-counter;
+}
+
+.Ass-1 div::before {
+  content: "Element";
+  position: absolute;
+  top: 40px;
+  right: 24px;
+  font-weight: bold;
+}
+
+.Ass-1 div::after {
+  content: counter(my-counter);
+  width: 16px;
+  height: 16px;
+  padding: 4px;
+  position: absolute;
+  top: -12px;
+  right: 42px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  border-radius: 12px;
+}
+
+/* Ass-2 */
+
+.Ass-2 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: #eee;
+  box-shadow: inset 0px 0px 8px 6px #00000087;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 41px 61px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 41px 61px;
+  
+}
+
+/* Ass-3 */
+
+.Ass-3 {
+ width: 550px;
+ text-align: center;
+ 
+}
+
+.Ass-3 div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  margin: 36px;
+  margin-bottom: -8px;
+  border-radius: 74%;
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 6.5em;
+  background-color: #eee;
+}
+
+.Ass-3 .basic::before {
+  content: "Basic";
+  width: 200px;
+  display: block;
+  position: absolute;
+  top: -43px;
+  left: -2px;
+  padding: 1px;
+  border-radius: 6px;
+  line-height: normal;
+  color: white;
+  background-color: #2196f3; 
+}
+
+.Ass-3 .basic::after {
+  content: "";
+  width: 2px;
+  height: 265px;
+  position: absolute;
+  top: -53px;
+  right: -39px;
+  background-color: #2196f3;
+
+}
+ 
+.Ass-3 .pro::before {
+  content: "Or";
+  width: 20px;
+  position: absolute;
+  bottom: 120px;
+  left: -54px;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  background-color: #2196f3;
+}
+
+.Ass-3 .pro::after {
+  content: "Pro";
+  width: 200px;
+  display: block;
+  position: absolute;
+  top: -43px;
+  left: -2px;
+  padding: 1px;
+  border-radius: 6px;
+  line-height: normal;
+  color: white;
+  background-color: #2196f3; 
+}
